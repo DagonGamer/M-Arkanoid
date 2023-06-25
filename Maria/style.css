@@ -1,0 +1,42 @@
+html {
+    background: #1d1d1d;
+    height: 100vh;
+}
+
+body {
+    margin: 5vw;
+}
+
+div.Marco {
+    width: 90vw;
+    height: 90vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 1vw;
+}
+
+div.Marco div {
+    background: #325685;
+    border-radius: 15%;
+}
+
+div.Plato {
+    position: fixed;
+    width: 30vw;
+    height: 3vw;
+    bottom: 2vw;
+    left: 35vw;
+    background: #853232;
+    border-radius: 3vw;
+}
+
+div.Bala {
+    position: fixed;
+    width: 5vw;
+    height: 5vw;
+    background: #328539;
+    border-radius: 5vw;
+    bottom: calc( 50vw - 2.5vw );
+    left: calc( 50vw - 2.5vw );
+}
